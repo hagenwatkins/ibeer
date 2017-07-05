@@ -89,6 +89,8 @@ img{
     display: flex;
     flex-direction: row;
 
+
+
     /*
         TODO:
         - Use Flexbox to arrange the navigation links
@@ -100,6 +102,8 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
+    justify-content: space-between;
+
 
     /*
         TODO:
@@ -107,7 +111,8 @@ img{
     */
 }
 #main-navigation #logo{
-    margin-right: 400px;
+    margin-right: 900px;
+
 
     /*
         TODO:
@@ -119,6 +124,11 @@ main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
+    width: 1000%;
+    position: relative;
+    bottom: 40px;
+
+
 
     /*
         TODO:
@@ -130,7 +140,9 @@ aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
+    position: relative;
     
+    bottom: 40px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -172,6 +184,9 @@ article time{
 }
 article img{
   float: right;
+  height: 150px;
+  width: 140px;
+  clear: right;
     /*
         TODO:
         - Float article images to the right
@@ -179,6 +194,10 @@ article img{
     */
 }
 article footer p{
+  display: block;
+  text-align: center;
+
+
     /*
         TODO:
         - Style the article footer
@@ -188,6 +207,9 @@ article footer p{
 #site-footer{
 
     background: #333;
+    color: white;
+    text-align: center;
+
     /*
         TODO:
         - Style the site footer
